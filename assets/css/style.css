@@ -1,7 +1,3 @@
-/*CHANGE COLORS TO LISTED COLORS ON HW*/
-/*ALSO CHANGE THE FONTS*/
-/*THEY WILL BE FACTORED INTO THE GRADES*/
-
 * {
 	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -19,14 +15,14 @@ body {
 	background-color: #ffffff;
 }
 
-header {
+.topleft {
 	background: #4aaaa5;
 	color: #fdfeff;
 	font-size: 33px;
-	/*font-family: Georgia, "Times New Roman", serif;*/
 	font-family: "Times New Roman", Times, serif;
 	float: left;
 	padding: 31.5px;
+	text-decoration-line: none;
 }
 
 .topright {
@@ -119,9 +115,48 @@ form {
 }
 
 .portfolio_img {
-	height: 200px;
-	width: 250px;
-	padding: 10px 20px 10px 0;
+	position: relative;
+	width: 50%;
+	float: left;
+	padding: 5px 0 10px 0;
+}
+
+p span {
+	background: #4aaaa5;
+	color: #fdfeff;
+	float: left;
+	font-size: 20px;
+} 
+
+.food {
+	position: absolute;
+	left: 10;
+	bottom: 100;
+	padding-right: 178px;
+}
+
+.sports {
+	position: absolute;
+	bottom: 100;
+	left: 36.2%;
+}
+
+.cats {
+	position: absolute;
+	left: 10;
+	bottom: 260px;
+}
+
+.human {
+	position: absolute;
+	left: 36.2%;
+	bottom: 260px;
+}
+
+.train {
+	position: absolute;
+	left: 10;
+	bottom: 31px;
 }
 
 footer {
