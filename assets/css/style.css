@@ -131,32 +131,32 @@ p span {
 .food {
 	position: absolute;
 	left: 10;
-	bottom: 100;
+	bottom: 510px;
 	padding-right: 178px;
 }
 
 .sports {
 	position: absolute;
-	bottom: 100;
+	bottom: 510px;
 	left: 36.2%;
 }
 
 .cats {
 	position: absolute;
 	left: 10;
-	bottom: 260px;
+	bottom: 280px;
 }
 
 .human {
 	position: absolute;
 	left: 36.2%;
-	bottom: 260px;
+	bottom: 280px;
 }
 
 .train {
 	position: absolute;
 	left: 10;
-	bottom: 31px;
+	bottom: 51px;
 }
 
 footer {
