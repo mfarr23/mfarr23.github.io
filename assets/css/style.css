@@ -1,178 +1,108 @@
-* {
-	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 body {
-	background-color: #eaeaea;
-	margin: 0 200px 0 200px;
+	background: #222222 !important;
 }
 
-.wrapper {
-	width: 100%;
-	height: 100px;
-	margin-bottom: 40px;
-	text-align: center;
-	background-color: #ffffff;
+#navbar {
+	border-style: none;
+	margin-bottom: 0;
 }
 
-.topleft {
-	background: #4aaaa5;
-	color: #fdfeff;
-	font-size: 33px;
-	font-family: "Times New Roman", Times, serif;
-	float: left;
-	padding: 31.5px;
-	text-decoration-line: none;
-}
-
-.topright {
+/*floats right nav items to the right*/
+#navRight {
 	float: right;
-	padding: 39px 40px 39px 40px;
-	font-size: 20px;
-	color: #99a2b3;
-	text-decoration-line: none;
 }
 
-.wrapper2 {
-	height: 525px;
-	width: 55%;
-	background-color: #ffffff;
-	padding: 0 35px 0 35px;
-	clear: both;
-	overflow: auto;
-	margin-bottom: 40px;
+/*changes the background image of the middle area*/
+.jumbotron {
+	background: url("../images/IMG_2807.JPG");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	color: black !important;
+  	height: 800px;
+  	padding: 0 !important;
+}
+
+/*Footer Area*/
+#infoAboutMe {
+	width: 30%;
 	float: left;
+	text-align: left;
+	padding-left: 4em;
+	font-size: 18px;
 }
 
-.w2header {
-	color: #4aaaa5;
-	padding: 30px 0 15px 0;
-	margin: 0 10px 0 10px;
-	font-size: 25px;
-}
-
-hr {
-	color: #dedede;
-	width: 100%;
-}
-
-.monkey {
-	width: 250px;
-	height: 250px;
-	float: left;
-	padding: 18px 20px 0 0;
-}
-
-.writing {
-	padding: 10px 0 0 0;
-	margin: 0;
-	font-size: 16px;
-	line-height: 30px;
-	color: #99a2b3;
-}
-
-.wrapper3 {
-	height: 180px;
-	width: 22%;
-	background: #ffffff;
-	float: right;
-	margin-bottom: 40px;
-	padding: 0 3% 0 3%;
-}
-
-.Connect {
-	color: #4aaaa5;
-	text-align: center;
-	padding: 20px 0 5px 0;
+#emailContact {
+	color: white;
 	font-size: 20px;
 }
 
-.Github {
-	width: 75px;
-	height: 75px;
-	padding-left: 30px;
+#email {
+	width: 40%;
 	float: left;
 }
 
-.LinkedIn {
-	width: 75px;
-	height: 75px;
-	padding-right: 30px;
-	float: right;
+#emailName, #emailEmail {
+	float: left;
+	width: 35%;
 }
 
+#emailSend {
+	float: left;
+}
+
+#emailMessage {
+	clear: both; 
+	float: left;
+	text-align: center;
+}
+
+#emailMessage {
+	width: 70%;
+	height: 60px;
+}
+
+#socialMedia {
+	width: 30%; 
+	float: left;
+}
+
+#socialMediaGit, #socialMediaLinked {
+	text-align: right;
+	padding-right: 4em;
+	font-size: 20px;
+}
+
+/*when the links are hovered upon, it turns them a certain color*/
+#githubLink:hover, #LinkedLink:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+#githubLink, #LinkedLink, #infoAboutMe {
+	color: white;
+}
+
+/*makes the email form black*/
+input {
+	background: #222222;
+}
+
+/*send button white*/
 form {
-	color: #9c9f9f;
+	color: white;
 }
 
-.wrapperp {
-	height: 800px;
-	width: 55%;
-	background-color: #ffffff;
-	padding: 0 35px 0 35px;
-	margin-bottom: 40px;
-	float: left;
-}
-
-.portfolio_img {
-	position: relative;
-	width: 50%;
-	float: left;
-	padding: 5px 0 10px 0;
-}
-
-p span {
-	background: #4aaaa5;
-	color: #fdfeff;
-	float: left;
-	font-size: 20px;
-} 
-
-.food {
-	position: absolute;
-	left: 10;
-	bottom: 510px;
-	padding-right: 178px;
-}
-
-.sports {
-	position: absolute;
-	bottom: 510px;
-	left: 36.2%;
-}
-
-.cats {
-	position: absolute;
-	left: 10;
-	bottom: 280px;
-}
-
-.human {
-	position: absolute;
-	left: 36.2%;
-	bottom: 280px;
-}
-
-.train {
-	position: absolute;
-	left: 10;
-	bottom: 51px;
-}
-
-footer {
-	clear: both;
-	width: 100%;
-	background: #666666;
-	color: #90958f;
-	border-top: solid;
-    border-color: #4aaaa5;
-	border-width: 5px;
+/*aligns the copywrite "© Copywright 2016 Michael Farrelly"*/
+#copywright {
+	clear: both; 
 	text-align: center;
-	padding: 25px 0 25px 0;
-	font-size: 13px;
+	background: #222222;
+	color: white;
 }
 
-
+/*screen sizes*/
 
 
 

@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Michael Farrelly Bio</title>
 
 	<meta charset="utf-8">
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Michael Farrelly</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
+	<!-- Latest compiled and minified CSS -->
+<!-- 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 
 <body>
+<nav class="navbar navbar-inverse" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="index2.html" class="navbar-brand">Michael Farrelly</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-header" id="navRight">
+      <ul class="nav navbar-nav">
+		<li><a href="#####">About Me</a></li>
+        <li><a href="#####">Portfolio</a></li>
+        <li><a href="#####">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row index" id="midPortion">
+	<div class="container-fluid col-xs-12 col-s-12 col-md-12 col-lg-12">
+		<div class="jumbotron">
+		  		<div class="row">
+		  				<h1 class="col-xs-12 col-s-12 col-md-12 col-lg-12" style="text-align: center; font-size: 30px;">About Me</h1>
+				</div>		 
+			    <div class="media">
+					<div class="media-body" style="font-size: 20px; text-align: center;">
+						<p>Recent graduate of George Washington University. Currently enrolled in a Full Stack Web Development Bootcamp ending October 2017.</p>
+
+						<p>Skills Learned: HTML, CSS, JavaScript, jQUery, BootStrap, API, AJAX.</p>
+
+						<p>Skills to Learn: Firebase, Node, MySQL, Express, Handlebars, ORM, SEO, MongoDB, React, Java, J2EE, Spring, Ruby, Python, Go, PHP, C#, etc.</p>	
+					</div>
+				</div>
+		</div>
+	</div>	
+
+	<!-- Footer -->
+<!-- information div on left to show name, address, phone number -->
+	<div class="footer" id="footer">
+		<div class="info" id="infoAboutMe">
+			<div class="name">Michael Farrelly</div>
+			<div class="address">2425 L Street NW<br>Washington, DC 20037</div>
+			<div class="phoneNumber">914.980.9150</div>
+		</div>
+		<div class="email" id="email">
+		<p id="emailContact">Feel free to send me an email.</p>
+				<form action="mailto:m11farrelly@gmail.com" method="post" enctype="text/plain">
+				<div class="firstLineEmail">
+					<input type="text" name="name" placeholder="Name" id="emailName">
+					<input type="text" name="mail" placeholder="Email" id="emailEmail">
+					<input type="submit" value="Send" id="emailSend">
+					<br>
+				</div>
+				<div class="emailSecondLine">
+					<input type="text" name="comment" size="50" placeholder="Message" id="emailMessage">
+					<br>
+				</div>
+				</form>
+		</div>
+		<div class="socialMedia" id="socialMedia">
+			<div class="gitHub" id="socialMediaGit"><a href="https://github.com/mfarr23" target="_blank" id="githubLink">Github</a></div>
+			<div class="LinkedIn" id="socialMediaLinked"><a href="https://www.linkedin.com/in/farrellymichael/" target="_blank" id="LinkedLink">LinkedIn</a></div>
+		</div>
+	</div>
+
+	<div class="panel-footer" id="copywright" style="border-style: none;">© Copywright 2016 Michael Farrelly</div>
 	
-	<div class="wrapper">
-		<a class="topleft" href="index.html">Michael Farrelly</a>
-		<a class="topright" href="contact.html">Contact</a>
-		<a class="topright" href="portfolio.html">Portfolio</a>
-		<a class="topright" href="index.html">About</a>
-	</div>
 
-	<div class="wrapper2">
-		<div class="w2header">About Me</div>
 
-		<hr>
-
-		<img class="monkey" src="assets/images/Monkey.jpg" alt="Monkey-Pic">
-
-		<p class="writing">
-			My name is Michael Farrelly and I am studying to become a Full-Stack Web Developer. So far I have studied computer programming languages such as html and css as well as programs like terminal and github. I hope to work as a developer upon completing the class.
-		</p>
-		<p class="writing">
-			The text and formatting of this page is based on a 15 inch mac. The page does not have proper responsive web design so the page will look abnormal on screens smaller than 15 inches. I hope to change that in the next assignment by using Bootstrap.
-		</p>
-
-	</div>
-
-	<div class="wrapper3">
-		<div class="Connect">Connect With Me</div>
-
-	<hr>
-
-		<a href="https://github.com/mfarr23" target="_blank">
-			<img class="Github" src="assets/images/github.png" alt="Github">
-		</a>
-		
-		<a href="https://www.linkedin.com/in/farrellymichael/" target="_blank">
-			<img class="LinkedIn" src="assets/images/linkedin.png" alt="LinkedIn">
-		</a>
-	</div>
-
-	<footer>
-		© Copywright 2016 Michael Farrelly
-	</footer>
 
 </body>
 </html>
