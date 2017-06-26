@@ -1,109 +1,22 @@
+nav {
+	background-color: #5590b3;
+}
+
 body {
-	background: #222222 !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	background-color: #5590b3;
 }
 
-#navbar {
-	border-style: none;
-	margin-bottom: 0;
+.page-footer {
+	background-color: #5590b3;
 }
 
-/*floats right nav items to the right*/
-#navRight {
-	float: right;
+#informationDiv {
+	color: white;	
 }
 
-/*changes the background image of the middle area*/
-.jumbotron {
-	background: url("../images/IMG_2807.JPG");
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	color: black !important;
-  	height: 800px;
-  	padding: 0 !important;
+main {
+    flex: 1 0 auto;
 }
-
-/*Footer Area*/
-#infoAboutMe {
-	width: 30%;
-	float: left;
-	text-align: left;
-	padding-left: 4em;
-	font-size: 18px;
-}
-
-#emailContact {
-	color: white;
-	font-size: 20px;
-}
-
-#email {
-	width: 40%;
-	float: left;
-}
-
-#emailName, #emailEmail {
-	float: left;
-	width: 35%;
-}
-
-#emailSend {
-	float: left;
-}
-
-#emailMessage {
-	clear: both; 
-	float: left;
-	text-align: center;
-}
-
-#emailMessage {
-	width: 70%;
-	height: 60px;
-}
-
-#socialMedia {
-	width: 30%; 
-	float: left;
-}
-
-#socialMediaGit, #socialMediaLinked {
-	text-align: right;
-	padding-right: 4em;
-	font-size: 20px;
-}
-
-/*when the links are hovered upon, it turns them a certain color*/
-#githubLink:hover, #LinkedLink:hover {
-	color: orange;
-	text-decoration: none;
-}
-
-#githubLink, #LinkedLink, #infoAboutMe {
-	color: white;
-}
-
-/*makes the email form black*/
-input {
-	background: #222222;
-}
-
-/*send button white*/
-form {
-	color: white;
-}
-
-/*aligns the copywrite "© Copywright 2016 Michael Farrelly"*/
-#copywright {
-	clear: both; 
-	text-align: center;
-	background: #222222;
-	color: white;
-}
-
-/*screen sizes*/
-
-
-
-
